@@ -98,6 +98,12 @@
             color: white;
             
         }
+        #call:hover {
+            color: aquamarine;
+        }
+        .call-1:hover {
+            color: aquamarine;
+        }
         .call-1 a {
             color: #fff;
             text-decoration: none;
@@ -147,11 +153,33 @@
             opacity: 85%;
             border-radius: 25px;
             transition: width 2s;
+            cursor: pointer;
         }
-        .submain:hover {
+        /* .submain i {
+            color:#000000;
+        } */
+        
+        #exit-button {
+            color: #fff;
+            margin-top:20px ;
+            margin-right:15px;
+            float: right;
+        }
+        /* .submain:hover {
             width: 800px;
 
-        }
+        } */
+        /* .expanded-submain {
+            
+            display: inline-block;
+            width: 850px;
+            height: auto;
+            border: solid 2px white;
+            background: #000000;
+            opacity: 85%;
+            border-radius: 25px;
+            transition: width 2s;
+        } */
         .submain-1 {
             display: inline-block;
             width: 500px;
@@ -167,7 +195,7 @@
         .submain p {
             color: #ffffff;
             text-align:center;
-            margin-top: 30%;
+            margin-top: 25%;
             font-size: 30px;
 
         }
@@ -188,11 +216,21 @@
             text-align: justify;
             
         }
+        .footer {
+            margin: auto;
+            width: 20%;
+            height: 40px
+        }
+        #p1 {
+            text-align: center;
+            margin-top: 10px;
+        }
         
         
     </style>
 </head>
 <body>
+    
     <div class="backimg">
     <div class="container">
         <div class="navigation">
@@ -229,12 +267,14 @@
         </div>
         <h1 style="text-align: center; color: #fff; font-family: 'Courier New', Courier, monospace;  text-shadow: 5px 5px 5px #042C5C;">АЖЛЫН БАЙРАНД СУУРИЛСАН СУРГАЛТЫН ХӨТӨЛБӨР</h1>
         <div class="main">
-            <div id="humuunleg" class="submain"><p >ХҮМҮҮНЛЭГИЙН СУРГУУЛЬ</p></div>
-            <div class="submain"><p >ЭДИЙН ЗАСАГ БИЗНЕСИЙН УДИРДЛАГЫН СУРГУУЛЬ</p></div>
-            <div class="submain"><p>ХУУЛЬ ЗҮЙН <br>СУРГУУЛЬ</p></div>
+            <div id="hu-1" class="submain eb-1"><i id="exit-button" class="fa-solid fa-xmark fa-xl"></i><p id="humuunleg">ХҮМҮҮНЛЭГИЙН СУРГУУЛЬ</p>
+                <p id="p1"></p></div>
+            <div id="hu-2" class="submain eb-2"><i id="exit-button" class="fa-solid fa-xmark fa-xl" ></i><p >ЭДИЙН ЗАСАГ БИЗНЕСИЙН УДИРДЛАГЫН СУРГУУЛЬ</p>
+            </div>
+            <div id="hu-3" class="submain eb-3"><i id="exit-button" class="fa-solid fa-xmark fa-xl" ></i><p>ХУУЛЬ ЗҮЙН <br>СУРГУУЛЬ</p></div>
         </div>
         <div class="main-1">
-            <div class="submain-1"><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta iusto dolorem deleniti beatae, quae ut corporis, rem eaque tempora odit error saepe nulla tempore eius neque necessitatibus, eligendi omnis maxime aliquam quis atque. Incidunt repellat laudantium voluptatum libero voluptate ratione aliquid velit tempore distinctio minima autem quasi sit, atque suscipit. Nulla exercitationem repudiandae aliquam voluptatem corporis. Beatae earum consequuntur voluptatem repudiandae non. Accusantium earum sed, velit cupiditate hic a optio asperiores laborum unde mollitia enim! Temporibus repellat, fugit repellendus rem in debitis qui minus a, quae consectetur fugiat, dignissimos ratione adipisci eveniet. Odio provident praesentium, at quibusdam sequi deleniti!</p></div>
+            <div class="submain-1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta iusto dolorem deleniti beatae, quae ut corporis, rem eaque tempora odit error saepe nulla tempore eius neque necessitatibus, eligendi omnis maxime aliquam quis atque. Incidunt repellat laudantium voluptatum libero voluptate ratione aliquid velit tempore distinctio minima autem quasi sit, atque suscipit. Nulla exercitationem repudiandae aliquam voluptatem corporis. Beatae earum consequuntur voluptatem repudiandae non. Accusantium earum sed, velit cupiditate hic a optio asperiores laborum unde mollitia enim! Temporibus repellat, fugit repellendus rem in debitis qui minus a, quae consectetur fugiat, dignissimos ratione adipisci eveniet. Odio provident praesentium, at quibusdam sequi deleniti!</p></div>
             <div class="submain-1"><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis itaque inventore repellat magni alias eveniet nemo. Voluptates, sunt fugiat? Tempore libero ea veniam asperiores? Laborum quisquam consequatur pariatur nostrum soluta! Porro quo tempore vero maiores ullam, aperiam, ex tenetur natus voluptatem enim facilis culpa sapiente. Doloremque ad nulla aspernatur sequi error, ab odit, laudantium asperiores impedit amet dignissimos minus explicabo eaque culpa veritatis architecto accusantium voluptates consequuntur possimus fuga consectetur. Quos ipsum facilis tempora deserunt alias, porro quidem? Dignissimos, pariatur culpa. Nobis itaque optio voluptates porro? Omnis quis optio dolores repellat sint dolorum debitis, consequatur illo et magni voluptatem assumenda?</p></div>
             <div class="submain-1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque in quam id soluta obcaecati exercitationem ipsa, ea nihil quaerat perspiciatis! Molestiae fugit, culpa aliquid mollitia voluptatum laudantium quasi nulla suscipit temporibus fugiat corporis obcaecati. Libero enim necessitatibus ducimus voluptates dolor! Deleniti cum at voluptatum dolorem mollitia quidem dolor architecto eum. Impedit reprehenderit delectus quaerat, sunt officia eius laborum nobis provident autem est deleniti fuga vel nostrum assumenda magnam! Repudiandae, vel asperiores? Similique, nostrum nulla voluptatum pariatur suscipit corrupti, tempora necessitatibus, cupiditate fugiat amet dolor aut rerum! Voluptas facere earum aliquid sed dignissimos neque nisi eaque ipsam aut? Amet, velit consequatur.</p>
             </div>
@@ -246,10 +286,12 @@
             <div class="bottom-1"><img src="/img/president.jpg" alt="president" style="width: 170px; margin-right: 300px; margin-left: 50px;"></div>
             
         </div>
-        
+        <div class="footer"> <i class="fa-solid fa-copyright" style="color: #ffffff; padding-left: 100px;margin-top: 10px;"></i>
+                    <p style="color: #ffffff ; text-align: center; display: inline-block;">2023 Copyright</p></div class="footer">
      
     </div>
-</div>
    
+</div>
+<script src="/app.js"></script>
 </body>
 </html>
