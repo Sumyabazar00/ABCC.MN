@@ -1,0 +1,245 @@
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+
+        }
+        body {
+            background: #042C5C;
+            
+
+        }
+        h1 {
+            font-size: 40px;
+            text-align: center; 
+            color: #fff; 
+            font-family: 'Courier New', Courier, monospace;  
+            text-shadow: 5px 5px 5px #042C5C;
+        }
+        .backimg {
+            background-image: url(/img/404549048_727443945458183_3691595731857016542_n.jpg);
+            background-repeat: no-repeat;
+            height: 900px;
+        }
+        .container {
+            
+        }
+        .navigation {
+            display: inline-block;
+            position: absolute;
+            width:50%;
+            height: 36px;
+            background: #042C5C;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            
+        }
+        .ul-1 li{
+            color: white;
+            display: inline;
+            text-align: center;
+            padding: 10px;
+        }
+        .navigation-1 {
+           width: 50%;
+           height: 36px;
+           float: right;
+           right: 10px;
+
+        }
+        .nav {
+            height: 10px;
+            background: #042C5C;
+        }
+        .nav-2 {
+            display: inline;
+            background: #000000;
+            opacity: 70%;
+            height: 860px;
+            width: 100px;
+            float: right;
+            margin-top: 20px;            
+            border-bottom-left-radius: 15px;
+        }
+        .menu {
+            float: left;
+            height: 36px;
+            
+        }
+        .menu li {
+            display: inline;
+            background: #042C5C;
+            color:white;
+            margin-right: 2px;
+            padding: 10px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            text-align:justify;
+            width: 40px;
+        }
+        .menu li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .menu li a:hover {
+            color: aquamarine;
+        }
+        .contact {
+            
+        }
+        #call {
+            color: rgb(255, 255, 255);          
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 5px;
+        }
+        .call-1 {
+            color: white;
+            
+        }
+        #call:hover {
+            color: aquamarine;
+        }
+        .call-1:hover {
+            color: aquamarine;
+        }
+        .call-1 a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .nav3 {
+            color: rgb(226, 204, 204);
+            height: 100px;
+            width: 10px;
+        }
+        .logos {
+            width: 90%;
+            display: flex;
+            justify-content:space-between;
+        }
+        #contact-2 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin: 10px;
+        }
+        .main {
+            width: 1820px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            /* border: solid 1px black; */
+            margin-top: 200px ;
+            padding-left: 200px;
+            padding-right: 200px;
+        } 
+        .main-1 {
+            width: 1820px;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            /* border: solid 1px rgb(255, 255, 255); */
+            margin-top: 200px ;
+            padding-left: 100px;
+            padding-right: 100px;
+        } 
+        .submain {
+            display: inline-block;
+            width: 350px;
+            height: auto;
+            border: solid 2px white;
+            background: #000000;
+            opacity: 85%;
+            border-radius: 25px;
+            transition: width 2s;
+            cursor: pointer;
+        }
+        /* .submain i {
+            color:#000000;
+        } */
+        
+        #exit-button {
+            color: #fff;
+            margin-top:20px ;
+            margin-right:15px;
+            float: right;
+        }
+        /* .submain:hover {
+            width: 800px;
+
+        } */
+        /* .expanded-submain {
+            
+            display: inline-block;
+            width: 850px;
+            height: auto;
+            border: solid 2px white;
+            background: #000000;
+            opacity: 85%;
+            border-radius: 25px;
+            transition: width 2s;
+        } */
+        .submain-1 {
+            display: inline-block;
+            width: 500px;
+            height: auto;
+            /* background: #685d5d; */
+
+        }
+        .submain-1 p {
+            color:#fff;
+            font-size: 18px;
+            text-align: justify;
+        }
+        .submain p {
+            color: #ffffff;
+            text-align:center;
+            margin-top: 25%;
+            font-size: 30px;
+
+        }
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            background: white;
+            width: fit-content;
+            height: auto;
+            border: solid 1px white;
+            margin-top: 200px;
+            padding: 50px;
+        }
+        .bottom-1 {
+            width: auto;
+        }
+        .bottom-1 p {
+            text-align: justify;
+            
+        }
+        .bottom-1 img {
+            width: 170px; 
+            margin-right: 300px; 
+            margin-left: 50px; 
+            border-radius: 20px;
+        }
+        .footer {
+            margin: auto;
+            width: 20%;
+            height: 40px
+        }
+        .footer p {
+            display: inline-block;
+            color: #ffffff;
+            text-align: center; 
+            
+        }
+        .footer i{
+            color: #ffffff; 
+            padding-left: 100px;
+            margin-top: 10px;
+        }
+        #p1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        
