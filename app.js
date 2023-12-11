@@ -7,8 +7,8 @@ window.document.querySelector(".eb-1 p").addEventListener("click", function () {
   document.getElementById("school-1").style.margin = "15px";
   //   document.getElementById("school-1").style.display = "inline";
 
-  window.document.getElementById("p1").textContent =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem explicabo ullam molestiae id sapiente, rem aliquam! Quos accusamus in nihil ut dolorum eligendi harum atque tempore numquam minus sed, facere at laboriosam magnam assumenda debitis. Explicabo quam, ad rem nostrum temporibus quidem id, pariatur maxime dolor, repudiandae iure placeat optio veritatis? Est molestiae consequatur laboriosam, pariatur nemo sint reprehenderit, minima quibusdam illo accusantium suscipit deserunt cupiditate aliquid quaerat mollitia praesentium, possimus aspernatur quas. Neque quod ex quam maiores voluptas reprehenderit qui illo quos, error omnis mollitia enim eaque unde ducimus eos aliquid atque eum magni et ea, aliquam ullam pariatur perferendis. Non reiciendis, pariatur deleniti expedita provident qui, est quo ut deserunt commodi quibusdam in vitae earum distinctio odit nemo aliquid. Alias mollitia unde natus molestiae reiciendis cum labore. Ipsam minima pariatur obcaecati corporis adipisci ratione nostrum, ut ipsum doloremque deserunt aut temporibus autem consequuntur dolorem accusantium? Quaerat, asperiores repellat.";
+  window.document.getElementById("p1").innerHTML =
+    "<h1>Ажлийн байранд суурилсан сургалтын хөтөлбөрт хамрагдсан хөтөлбөрүүд</h1><br><br><h4><span>&#183;</span>    Эрх зүй</h4>";
 });
 window.document.querySelector(".eb-1 i").addEventListener("click", function () {
   var submainDom = document.querySelector(".eb-1");

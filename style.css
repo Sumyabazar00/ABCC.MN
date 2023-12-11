@@ -157,7 +157,13 @@
         /* .submain i {
             color:#000000;
         } */
-        
+        .submain h1 {
+            text-align: center;
+            color:#fff ;
+            font-family: 'Courier New', Courier, monospace;  
+            text-shadow:none;
+            padding-top: 25px;
+        }
         #exit-button {
             color: #fff;
             margin-top:20px ;
