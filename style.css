@@ -17,9 +17,10 @@
             text-shadow: 5px 5px 5px #042C5C;
         }
         .backimg {
-            background-image: url(/img/404549048_727443945458183_3691595731857016542_n.jpg);
+            background-image: url(/img/360_F_459956036_JXcJ0vzTzr2GFFpUcNsCT7CCaSDRKgtt.jpg);
             background-repeat: no-repeat;
-            height: 900px;
+            background-size:cover;
+            height: 1000px;
         }
         .container {
             
@@ -55,11 +56,15 @@
             display: inline;
             background: #000000;
             opacity: 70%;
-            height: 860px;
+            height:1850px ;
             width: 100px;
+            /* position: fixed; */
             float: right;
             margin-top: 20px;            
             border-bottom-left-radius: 15px;
+        }
+        #navbar2-2 {
+            height: 100vh;
         }
         .menu {
             float: left;
@@ -81,11 +86,8 @@
             color: #fff;
             text-decoration: none;
         }
-        .menu li a:hover {
+        .navigation-1 ul li a:hover, .navigation-1 ul li a.current {
             color: aquamarine;
-        }
-        .contact {
-            
         }
         #call {
             color: rgb(255, 255, 255);          
@@ -124,7 +126,7 @@
             margin: 10px;
         }
         .main {
-            width: 1820px;
+            width: 100%;
             height: 300px;
             display: flex;
             justify-content: space-between;
@@ -154,9 +156,22 @@
             transition: width 2s;
             cursor: pointer;
         }
-        /* .submain i {
-            color:#000000;
-        } */
+        .submain i {
+            color:#ffffff;
+            color: #fff;
+            margin-top:20px ;
+            margin-right:15px;
+            float: right;
+        }
+        #exit-button-1 {
+            visibility: hidden;
+        }
+        #exit-button-2 {
+            visibility: hidden;
+        }
+        #exit-button-3 {
+            visibility: hidden;
+        }
         .submain h1 {
             text-align: center;
             color:#fff ;
@@ -164,12 +179,7 @@
             text-shadow:none;
             padding-top: 25px;
         }
-        #exit-button {
-            color: #fff;
-            margin-top:20px ;
-            margin-right:15px;
-            float: right;
-        }
+        
         /* .submain:hover {
             width: 800px;
 
@@ -269,5 +279,10 @@
             padding-left:  15px;
         }
         
-        
-        
+/* contact hesgiin styling */
+.contact-main {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    border: 1px solid white;
+}
