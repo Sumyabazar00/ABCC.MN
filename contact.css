@@ -24,3 +24,8 @@
 #id1 {
     margin-top: 50px;
 }
+.map {
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+}
