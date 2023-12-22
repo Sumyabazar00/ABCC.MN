@@ -57,10 +57,10 @@
             display: inline;
             background: #000000;
             opacity: 70%;
-            height:1850px ;
+            height:100vh ;
             width: 100px;
-            /* position: fixed; */
             float: right;
+            /* position: fixed; */
             margin-top: 20px;            
             border-bottom-left-radius: 15px;
         }
