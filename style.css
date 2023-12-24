@@ -5,11 +5,15 @@
             scroll-behavior:smooth;
             
         }
+        .clr {
+            clear: both;
+        }
         body {
             background: #042C5C;
             
 
         }
+
         h1 {
             font-size: 40px;
             text-align: center; 
@@ -22,6 +26,15 @@
             background-repeat: no-repeat;
             background-size:cover;
             height: 1000px;
+            /* transform: rotate(180deg); */
+        }
+        .backimg-cooperation {
+            background-image: url(/img/union-cover.jpg);
+            background-repeat: no-repeat;
+            width: 70%;
+            margin: auto;
+            height: 500px;
+            
         }
         .container {
             
@@ -137,13 +150,13 @@
             padding-right: 200px;
         } 
         .main-1 {
-            width: 1820px;
+            width: 100%;
             height: auto;
             /* display: flex;
             justify-content: space-between; */
             /* border: solid 1px rgb(255, 255, 255); */
             margin-top: 200px ;
-            padding: 10px 100px;
+            padding: 20px 150px;
         } 
         .submain {
             display: inline-block;
@@ -180,11 +193,7 @@
             padding-top: 25px;
         }
         .submain-1 {
-            float: left;
-            width: 33.3%;
-            padding: 30px 20px;
-            /* background: #685d5d; */
-
+            margin: auto;
         }
         .submain p {
             color: #ffffff;
@@ -194,8 +203,25 @@
         }
         .submain-1 p {
             color:#fff;
-            font-size: 18px;
+            font-size: 24px;
             text-align: justify;
+            margin-left: 20px;
+        }
+        .submain-1 h2 {
+            color: white;
+            padding: 30px 0px;
+            font-size: 26px;
+            
+        }
+        .submain-1-title{
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .submain-1 ul li {
+            color: white;
+            font-size: 20px;
+            margin-left: 60px;
         }
         
         .bottom {
@@ -205,7 +231,6 @@
             width: fit-content;
             height: auto;
             border: solid 1px white;
-            margin-top: 200px;
             padding: 50px;
         }
         .bottom-1 {
