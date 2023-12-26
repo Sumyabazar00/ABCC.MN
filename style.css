@@ -28,13 +28,8 @@
             height: 1000px;
             /* transform: rotate(180deg); */
         }
-        .backimg-cooperation {
-            background-image: url(/img/union-cover.jpg);
-            background-repeat: no-repeat;
-            width: 70%;
-            margin: auto;
-            height: 500px;
-            
+        a {
+            text-decoration: none;
         }
         .container {
             
@@ -67,7 +62,7 @@
             background: #042C5C;
         }
         .nav-2 {
-            display: inline;
+            /* display: inline; */
             background: #000000;
             opacity: 70%;
             height:100vh ;
@@ -76,6 +71,9 @@
             /* position: fixed; */
             margin-top: 20px;            
             border-bottom-left-radius: 15px;
+        }
+        .nav-2#nav-2-expanded{
+            width:100% ;
         }
         #navbar2-2 {
             height: 1240px;
@@ -294,4 +292,76 @@
     margin: auto;
     height: auto;
     border: 1px solid white;
+}
+/* cooperation styling */
+#cooperation {
+        background-color: #fff;
+        height: 630px;
+        padding-top: 15px;
+        scroll-behavior: smooth 3;
+}
+#cooperation h1 {
+    color: #042C5C;
+    text-shadow: none;
+}
+.cooperation-logo {
+    /* border: #fff solid 1px; */
+    height: auto;
+    background: #ffffff;
+    padding:0px 100px;
+}
+.cooperation-logo-info {
+    position: relative;
+    height: 300px;
+    float: left;
+    width: 25%;
+    /* border: #000000 solid 1px; */
+    text-align: center;
+}
+.cooperation-logo-info img{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* display: inline-block; */
+    width:400px;
+    border-radius: 25px;
+    /* margin: 10px 0px; */
+}
+.logo-botom {
+   width: 33.3%;  
+}
+/* CONTACT STYLING */
+.contact-main {
+    width: 85%;
+    margin: auto;
+    margin-top: 150px;
+    height: auto;
+    border: 1px solid white;
+    background: black;
+    opacity: 70%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.contact-sub-main {
+    width: 33%;
+    /* border: 1px solid white; */
+}
+.contact-sub-main p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#id1 {
+    margin-top: 50px;
+}
+.map {
+    height: auto;
+    width: auto;
+    margin-left: 10%;
 }
