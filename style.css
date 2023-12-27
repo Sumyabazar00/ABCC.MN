@@ -3,7 +3,6 @@
             padding: 0;
             margin: 0;
             scroll-behavior:smooth;
-            
         }
         .clr {
             clear: both;
@@ -18,31 +17,27 @@
             font-size: 40px;
             text-align: center; 
             color: #fff; 
-            font-family: 'Courier New', Courier, monospace;  
-            text-shadow: 5px 5px 5px #042C5C;
         }
         .backimg {
-            background-image: url(/img/360_F_459956036_JXcJ0vzTzr2GFFpUcNsCT7CCaSDRKgtt.jpg);
+            background-image: url(/img/black.png);
             background-repeat: no-repeat;
             background-size:cover;
             height: 1000px;
-            /* transform: rotate(180deg); */
         }
         a {
             text-decoration: none;
         }
         .container {
-            
+            position: relative;
         }
         .navigation {
-            display: inline-block;
+            display: inline;
             position: absolute;
             width:50%;
             height: 36px;
             background: #042C5C;
             border-bottom-right-radius: 15px;
             border-bottom-left-radius: 15px;
-            
         }
         .ul-1 li{
             color: white;
@@ -51,34 +46,30 @@
             padding: 10px;
         }
         .navigation-1 {
+            background: #042C5C;
            width: 50%;
-           height: 36px;
+           height: 28px;
            float: right;
            right: 10px;
 
         }
-        .nav {
-            height: 10px;
-            background: #042C5C;
-        }
         .nav-2 {
-            /* display: inline; */
+            display: inline;
             background: #000000;
             opacity: 70%;
             height:100vh ;
             width: 100px;
+            position: absolute;
             float: right;
-            /* position: fixed; */
-            margin-top: 20px;            
             border-bottom-left-radius: 15px;
-        }
-        .nav-2#nav-2-expanded{
-            width:100% ;
+            right: 0;
         }
         #navbar2-2 {
             height: 1240px;
         }
         .menu {
+            padding-top: 10px;
+            display: inline;
             float: left;
             height: 36px;
             
@@ -87,6 +78,7 @@
             display: inline;
             background: #042C5C;
             color:white;
+            /* margin-top: 20px; */
             margin-right: 2px;
             padding: 10px;
             border-bottom-left-radius: 15px;
@@ -99,7 +91,7 @@
             text-decoration: none;
         }
         .navigation-1 ul li a:hover, .navigation-1 ul li a.current {
-            color: aquamarine;
+            color:aquamarine;
         }
         #call {
             color: rgb(255, 255, 255);          
@@ -186,7 +178,6 @@
         .submain h1 {
             text-align: center;
             color:#fff ;
-            font-family: 'Courier New', Courier, monospace;  
             text-shadow:none;
             padding-top: 25px;
         }
@@ -296,7 +287,7 @@
 /* cooperation styling */
 #cooperation {
         background-color: #fff;
-        height: 630px;
+        height: 930px;
         padding-top: 15px;
         scroll-behavior: smooth 3;
 }
@@ -355,7 +346,6 @@
     text-align: center;
     color: white;
     font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #id1 {
     margin-top: 50px;
