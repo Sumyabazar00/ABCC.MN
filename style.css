@@ -7,17 +7,18 @@
         .clr {
             clear: both;
         }
-        body {
+       html, body {
             background: #042C5C;
-            
-
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         h1 {
             font-size: 40px;
             text-align: center; 
             color: #fff; 
+            margin-bottom: 10px;
         }
+        
         .backimg {
             background-image: url(/img/black.png);
             background-repeat: no-repeat;
@@ -57,7 +58,7 @@
             display: inline;
             background: #000000;
             opacity: 70%;
-            height:100vh ;
+            height:auto ;
             width: 100px;
             position: absolute;
             float: right;
@@ -287,7 +288,7 @@
 /* cooperation styling */
 #cooperation {
         background-color: #fff;
-        height: 930px;
+        height: 1250px;
         padding-top: 15px;
         scroll-behavior: smooth 3;
 }
@@ -354,4 +355,80 @@
     height: auto;
     width: auto;
     margin-left: 10%;
+}
+/* Experience styling*/
+#experinece h1 {
+    text-align: center;
+
+}
+#experience .exp-container {
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    border-top: 3px solid red;
+}
+#experience .exp-container h2 {
+    float: left;
+    width: 33.3%;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#experience .exp-container h3 {
+    float: left;
+    width: 33.3%;
+    color: #fff;
+    text-align: center;
+}
+#experience .exp-info {
+    margin: auto;
+    padding-top: 30px;
+    width: 80%;
+    /* border: 1px solid; */
+}
+
+.exp-img {
+    width: 80%;
+    margin: auto;
+    padding-bottom:10px;
+    border-top:  3px solid red;
+    height: 500px;
+}
+.exp-img img {
+    float: right;
+    width: 50%;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+.exp-img #img1 {
+    float: left;
+    width: 50%;
+    margin: 20px 0px;
+    margin-right: 20px;
+}
+
+.exp-img p {
+    color: #ffffff;
+    margin: 12% 0px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+#p11 {
+    color: #ffffff;
+    width: 50%;
+    margin-top: 20px;
+    /* left: 0; */
+
+}
+.videos {
+    margin: auto;
+    padding: 20px 10px;
+    width: 80%;
+    /* border-top: 1px red solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.videos iframe {
+    margin: 10px 10px;    
 }
