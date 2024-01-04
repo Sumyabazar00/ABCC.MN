@@ -19,6 +19,7 @@
             margin-bottom: 10px;
         }
         
+        
         .backimg {
             background-image: url(/img/black.png);
             background-repeat: no-repeat;
@@ -381,12 +382,30 @@
     color: #fff;
     text-align: center;
 }
-#experience .exp-info {
+#experience #exp-info {
     margin: auto;
     padding-top: 30px;
     width: 80%;
+    display: none;
     /* border: 1px solid; */
 }
+#experience #exp-info-1 {
+    margin: auto;
+    padding-top: 30px;
+    width: 80%;
+    display: none;
+    /* border: 1px solid; */
+}
+.del {
+        font-size: 22px;
+        text-align: center; 
+        color: #fff; 
+        padding: 10px 0;
+        cursor: pointer;
+        text-decoration: underline;
+    
+}
+
 
 .exp-img {
     width: 80%;

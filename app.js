@@ -60,7 +60,7 @@ window.document.querySelector(".eb-3 p").addEventListener("click", function () {
     "<h1>Ажлийн байранд суурилсан сургалтын хөтөлбөрт хамрагдсан хөтөлбөрүүд</h1><br><br><h4><span>&#183;</span>&nbsp&nbspЭрх зүй</h4>";
 });
 window.document.querySelector(".eb-3 i").addEventListener("click", function () {
-  //   alert("afs");
+  // alert("afs");
   document.getElementById("exit-button-3").style.visibility = "hidden";
   var ebDom = document.querySelector(".eb-3");
   ebDom.style.width = "350px";
