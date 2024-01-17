@@ -28,27 +28,30 @@
         }
         a {
             text-decoration: none;
+            font-weight: 500;
         }
         .container {
-            position: relative;
+           position: sticky;
+           top: 0;
+           z-index: 1;
         }
         .navigation {
             display: inline;
             position: absolute;
             width:50%;
             height: 36px;
-            background: #042C5C;
+            background: #235087;
             border-bottom-right-radius: 15px;
             border-bottom-left-radius: 15px;
         }
-        .ul-1 li{
+        /* .ul-1 li{
             color: white;
             display: inline;
             text-align: center;
             padding: 10px;
-        }
+        } */
         .navigation-1 {
-            background: #042C5C;
+           background:  #235087;
            width: 50%;
            height: 28px;
            float: right;
@@ -57,7 +60,7 @@
         }
         .nav-2 {
             display: inline;
-            background: #000000;
+            background: #235087;
             opacity: 70%;
             height:auto ;
             width: 100px;
@@ -70,7 +73,7 @@
             height: 1240px;
         }
         .menu {
-            padding-top: 10px;
+            margin-top: 10px;
             display: inline;
             float: left;
             height: 36px;
@@ -78,9 +81,8 @@
         }
         .menu li {
             display: inline;
-            background: #042C5C;
-            color:white;
-            /* margin-top: 20px; */
+            background: #235087;
+            color:#042C5C;
             margin-right: 2px;
             padding: 10px;
             border-bottom-left-radius: 15px;
@@ -89,11 +91,14 @@
             width: 40px;
         }
         .menu li a {
-            color: #fff;
+            padding: 0.5rem;
+            color:white;
             text-decoration: none;
+            border-radius: 10px;
         }
-        .navigation-1 ul li a:hover, .navigation-1 ul li a.current {
-            color:aquamarine;
+        .navigation-1 ul li:hover, .navigation-1 ul li.current {
+            background:#fdc500;
+            border-radius: 15px;
         }
         #call {
             color: rgb(255, 255, 255);          
@@ -101,15 +106,25 @@
             padding-top: 10px;
             padding-right: 5px;
         }
+        #call-down {
+            color: rgb(255, 255, 255);          
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 5px;
+            text-decoration: underline;
+        }
         .call-1 {
             color: white;
             
         }
         #call:hover {
-            color: aquamarine;
+            color: #fdc500;
+        }
+        #call-down:hover {
+            color: #fdc500;
         }
         .call-1:hover {
-            color: aquamarine;
+            color: #fdc500;
         }
         .call-1 a {
             color: #fff;
@@ -428,6 +443,7 @@
 }
 
 .exp-img p {
+    text-align: center;
     color: #ffffff;
     margin: 12% 0px;
     padding-left: 20px;

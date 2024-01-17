@@ -1,8 +1,8 @@
-var del = window.document.getElementById("delgerengui");
-del.addEventListener("click", function () {
+var del1 = window.document.getElementById("delgerengui");
+del1.addEventListener("click", function () {
+  del1.style.display = "none";
   var a = document.getElementById("exp-info");
   a.style.display = "block";
-  del.style.display = "none";
   var b = document.getElementById("huraangui");
   b.style.display = "block";
 });
@@ -11,7 +11,7 @@ hur.addEventListener("click", function () {
   var a = document.getElementById("exp-info");
   a.style.display = "none";
   hur.style.display = "none";
-  del.style.display = "block";
+  del1.style.display = "block";
 });
 var del = window.document.getElementById("delgerengui1");
 del.addEventListener("click", function () {
