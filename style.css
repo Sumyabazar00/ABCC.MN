@@ -97,7 +97,7 @@
             border-radius: 10px;
         }
         .navigation-1 ul li:hover, .navigation-1 ul li.current {
-            background:#fdc500;
+            background:#3b6292;
             border-radius: 15px;
         }
         #call {
@@ -304,42 +304,37 @@
 /* cooperation styling */
 #cooperation {
         background-color: #fff;
-        height: 1250px;
         padding-top: 15px;
         scroll-behavior: smooth 3;
+}
+/* #cooperation .container {
+    width: 1280px;
+    margin: 0 auto;
+} */
+#cooperation .decr {
+    width: 330px;
 }
 #cooperation h1 {
     color: #042C5C;
     text-shadow: none;
 }
 .cooperation-logo {
-    /* border: #fff solid 1px; */
-    height: auto;
-    background: #ffffff;
-    padding:0px 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 2rem 2rem;
+    overflow: hidden;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    
 }
-.cooperation-logo-info {
-    position: relative;
-    height: 300px;
-    float: left;
-    width: 25%;
-    /* border: #000000 solid 1px; */
-    text-align: center;
-}
-.cooperation-logo-info img{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    /* display: inline-block; */
-    width:400px;
-    border-radius: 25px;
-    /* margin: 10px 0px; */
-}
+.cooperation-logo .cooperation-logo-info img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+} 
 .logo-botom {
-   width: 33.3%;  
+    width: 33.3%;  
 }
 /* CONTACT STYLING */
 .contact-main {

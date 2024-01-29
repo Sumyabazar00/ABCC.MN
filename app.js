@@ -2,7 +2,7 @@ window.document.querySelector(".eb-1 p").addEventListener("click", function () {
   document.getElementById("exit-button-1").style.visibility = "visible";
   var submainDom = window.document.querySelector(".eb-1");
   submainDom.style.width = "1500px";
-  submainDom.style.height = "1000px";
+  submainDom.style.height = "750px";
   document.getElementById("school-1").style.fontSize = "25px";
   document.getElementById("school-1").style.textAlign = "left";
   document.getElementById("school-1").style.margin = "15px";
@@ -28,7 +28,7 @@ window.document.querySelector(".eb-2 p").addEventListener("click", function () {
   document.getElementById("exit-button-2").style.visibility = "visible";
   var submainDom = document.querySelector(".eb-2");
   submainDom.style.width = "1500px";
-  submainDom.style.height = "1000px";
+  submainDom.style.height = "750px";
   document.getElementById("school-2").style.fontSize = "25px";
   document.getElementById("school-2").style.textAlign = "left";
   document.getElementById("school-2").style.margin = "15px";
@@ -52,7 +52,7 @@ window.document.querySelector(".eb-3 p").addEventListener("click", function () {
   document.getElementById("exit-button-3").style.visibility = "visible";
   var submainDom = document.querySelector(".eb-3");
   submainDom.style.width = "1500px";
-  submainDom.style.height = "1000px";
+  submainDom.style.height = "750px";
   document.getElementById("school-3").style.fontSize = "25px";
   document.getElementById("school-3").style.textAlign = "left";
   document.getElementById("school-3").style.margin = "15px";
