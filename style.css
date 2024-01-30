@@ -330,7 +330,7 @@
 }
 .cooperation-logo .cooperation-logo-info img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 2rem;
 } 
 .logo-botom {
@@ -393,10 +393,18 @@
     text-align: center;
 }
 #experience #exp-info {
-    margin: auto;
+    /* margin: auto;
     padding-top: 30px;
-    width: 80%;
-    display: none;
+    width: 80%; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 1280px;
+    margin: 0 auto;
+    /* display: none; */
     /* border: 1px solid; */
 }
 #experience #exp-info-1 {
@@ -416,32 +424,34 @@
     
 }
 
-
+#experience #exp-info:nth-child(3)  {
+    border:solid 1px red;
+}
 .exp-img {
-    width: 80%;
-    margin: auto;
-    padding-bottom:10px;
-    border-top:  3px solid red;
-    height: 500px;
+    margin-bottom: 1rem;
 }
 .exp-img img {
-    float: right;
+    width: 400px;
+    background-image:no-repeat center center/cover ;
+    border-radius: 10px;
+    /* float: right;
     width: 50%;
     margin: 20px 0px;
-    border-radius: 20px;
+    border-radius: 20px; */
 }
-.exp-img #img1 {
+
+/* .exp-img #img1 {
     float: left;
     width: 50%;
     margin: 20px 0px;
     margin-right: 20px;
-}
+} */
 
 .exp-img p {
     text-align: center;
     color: #ffffff;
-    margin: 12% 0px;
-    padding-left: 20px;
+    /* margin: 12% 0px;
+    padding-left: 20px; */
     font-size: 20px;
 }
 #p11 {
