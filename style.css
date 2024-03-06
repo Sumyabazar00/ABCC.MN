@@ -21,7 +21,7 @@
         
         
         .backimg {
-            background-image: url(/img/black.png);
+            background-image: url(./img/black.png);
             background-repeat: no-repeat;
             background-size:cover;
             height: 1000px;
