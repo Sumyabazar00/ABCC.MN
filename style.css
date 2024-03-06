@@ -117,7 +117,7 @@
             color: white;
             
         }
-        #call:hover {
+        /* #call:hover {
             color: #fdc500;
         }
         #call-down:hover {
@@ -125,7 +125,7 @@
         }
         .call-1:hover {
             color: #fdc500;
-        }
+        } */
         .call-1 a {
             color: #fff;
             text-decoration: none;
